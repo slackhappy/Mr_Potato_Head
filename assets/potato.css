@@ -19,7 +19,9 @@ h1 {
 
 #body { top: 28px; left: 68px; }
 
-#arms { top: 177px; left: 26px;}
+#arms { top: 177px; left: 26px; }
+
+#cane { top: 257px; left: 0px; z-index: 1 }
 
 #ears { top: 104px; left: 58px; }
 
