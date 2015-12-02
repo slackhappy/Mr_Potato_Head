@@ -5,13 +5,13 @@
 [`https://github.com/slackhappy/Mr_Potato_Head`](https://github.com/slackhappy/Mr_Potato_Head)
 
 
-2. Fork their Repo
-3. From the new Repo on your GitHub, copy the clone from https url to your clipboard.
+2. Fork the Repo
+
 
 In Cloud 9:
 
-1. Create a new workspace using the "Clone from URL" option
-2. Add your assigned body part to `potatohead.html`
+1. Create a new workspace by going to "Repositories" [https://c9.io/account/repos](https://c9.io/account/repos). You should see `Mr_Potato_Head`.  Click "Clone to Edit".
+2. Add your assigned body part to `potatohead.html`.  Use "Preview" or "Run" to make sure you did it correctly.
 3. Once you are complete with the html, do the following steps:
   - Check that you modified the correct file with `git status`
   - Make a commit with `git add` and `git commit`
@@ -34,7 +34,7 @@ You should see that potatohead.html is modified, like this:
 ```
 
 ### Make a commit 
-Add your changes to the index, then commit them.  Don't use "Commit message" as your message!
+Stage your changes in the index with `git add .`, then commit them.  The string after `-m` in `git commit` is the commit message. Don't use "Commit message" as your message!
 Instead, say what you did, for example "added body part [your assigned body part]"
 
 ```
@@ -56,4 +56,17 @@ look at your github: `http://github.com/[myusername]/Mr_Potato_Head`  You should
 
 From your GitHub create a "New Pull Request" (the green button) to send your changes to the instructor.  The instructor will merge all of the changes (everyone's body parts), and at the end hopefully we'll have a whole Mr. Potato Head.
 
+### Bonus
+
+1. Update the body part image or css for your body part (see `assets/potato.css`).  Stage, commit, push, and send another pull request!
+
+2. Update your repository with the instructors' changes:
+
+```
+[once]
+git remote add upstream https://github.com/slackhappy/Mr_Potato_Head.git
+
+[as needed]
+git pull --rebase upstream master
+```
 
