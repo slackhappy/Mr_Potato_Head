@@ -25,6 +25,8 @@ h1 {
 
 #ears { top: 104px; left: 58px; }
 
+#earrings { top: 104px; left: 58px; z-index: 1; }
+
 #eyes { top: 126px; left: 132px; z-index: 4; }
 
 #mouth { top: 233px; left: 119px; z-index: 4; }
