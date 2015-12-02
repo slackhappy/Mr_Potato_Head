@@ -11,7 +11,7 @@
 In Cloud 9:
 
 1. Create a new workspace by going to "Repositories" [https://c9.io/account/repos](https://c9.io/account/repos). You should see `Mr_Potato_Head`.  Click "Clone to Edit".
-2. Add your assigned body part to `potatohead.html`.  Use "Preview" or "Run" to make sure you did it correctly.
+2. Add your assigned body part to `potatohead.html`.  All you need to do is add a `src=` tag for your body part in the html just like the `"body"` img.  You can find the images you need right in the `assets` directory.  Use "Preview" or "Run" to make sure you did it correctly.  Don't add anyone else's body part, just your own.
 3. Once you are complete with the html, do the following steps:
   - Check that you modified the correct file with `git status`
   - Make a commit with `git add` and `git commit`
@@ -33,7 +33,7 @@ You should see that potatohead.html is modified, like this:
 	modified:   potatohead.html
 ```
 
-### Make a commit 
+### Make a commit
 Stage your changes in the index with `git add .`, then commit them.  The string after `-m` in `git commit` is the commit message. Don't use "Commit message" as your message!
 Instead, say what you did, for example "added body part [your assigned body part]"
 
@@ -61,12 +61,17 @@ From your GitHub create a "New Pull Request" (the green button) to send your cha
 1. Update the body part image or css for your body part (see `assets/potato.css`).  Stage, commit, push, and send another pull request!
 
 2. Update your repository with the instructors' changes:
-
-```
+ ```
 [once]
 git remote add upstream https://github.com/slackhappy/Mr_Potato_Head.git
 
 [as needed]
 git pull --rebase upstream master
 ```
+
+3. There is a click handler in `potatohead.html`.  Right now, it just logs to the browser console.  Can you make it do something cool?
+  - In C9, click "Run" on `potatohead.html`  and open up the link from the c9 console in a new tab
+  - Press Option-Command-i to open the developer console.
+  - Click on a part of the potato head, you should see the part logged in the console.
+  - Can you do something more?  Try [animating](http://api.jquery.com/animate/) a change to the height or width, for example.
 
