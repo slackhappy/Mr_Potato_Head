@@ -13,11 +13,6 @@ In Cloud 9:
 1. Create a new workspace by going to "Repositories" [https://c9.io/account/repos](https://c9.io/account/repos). You should see `Mr_Potato_Head`.  Click "Clone to Edit".
 2. Add your assigned body part to `potatohead.html`.  All you need to do is add a `src=` tag for your body part in the html just like the `"body"` img.  You can find the images you need right in the `assets` directory.  Use "Preview" or "Run" to make sure you did it correctly.  Don't add anyone else's body part, just your own.
 3. Once you are complete with the html, do the following steps:
-  - Check that you modified the correct file with `git status`
-  - Make a commit with `git add` and `git commit`
-  - Send this commit up to github
-  - Make a pull request to tell the instructor to include your changes.
-
 
 
 ### Check that you modified the correct file
