@@ -37,6 +37,8 @@ h1 {
 
 #hat { top: 28px; left: 101px; z-index: 10;}
 
+#hatflower { top: 0px; left: 101px; z-index: 11;}
+
 #moustache { top: 189px; left: 91px; z-index: 5;}
 
 #shoes { top: 297px; left: 46px; z-index: 1;}
