@@ -13,7 +13,7 @@ Students will understand the basics of version control. They will be able to set
 ### Key Points
 
 * **Git** is an example of a version control software.
-* **GitHub** is a service that lets programmers use **Git** to store their work on cloud-based servers. 
+* **GitHub** is a service that lets programmers use **Git** to store their work on cloud-based servers.
 * **GitHub** is widely used in the industry for collaboration.
 
 ### Assessment
@@ -38,11 +38,11 @@ Students will show progress toward reaching the objective based on their perform
 
 ### References
 * [Presentation Slides](https://docs.google.com/presentation/d/1eH0T3ESKY7AJQjtAL7_X4-uWqJRXwgKGguoAbmQmzRw/edit?usp=sharing)
-* http://gitref.org/basic/
 * https://try.github.io/levels/1/challenges/1
 * http://en.wikipedia.org/wiki/Revision_control
 * http://en.wikipedia.org/wiki/Git_(software)
 * http://git-scm.com/docs/git-merge
+* http://gitref.org/basic/
 
 ## During Class
 
@@ -54,7 +54,7 @@ Students will show progress toward reaching the objective based on their perform
 
 ### Opening
 
-Today, we will learn about collaboration through the use of **Git** and **GitHub**. 
+Today, we will learn about collaboration through the use of **Git** and **GitHub**.
 
 The opening lecture can be found on slides 2-4 of the [Presentation Slides](https://docs.google.com/presentation/d/1eH0T3ESKY7AJQjtAL7_X4-uWqJRXwgKGguoAbmQmzRw/edit?usp=sharing).
 
@@ -119,8 +119,8 @@ You can now go to your repository on GitHub and see the changes you made.
 
 Now that our repo is up to date we will need to ask the owner of the orignal repo to accept our changes with a **`pull request`**.
 
-A **pull request** is completed by clicking the small green button on the repo page  
-![Imgur](http://i.imgur.com/BqY9CA9.png) 
+A **pull request** is completed by clicking the small green button on the repo page
+![Imgur](http://i.imgur.com/BqY9CA9.png)
 
 
 ### Guided Practice ("We do")
@@ -162,13 +162,9 @@ Give the Exit Ticket.
 
 Accept all of the **pull requests** and show off everyone's work on the board by plugging the potatohead.html URL into www.rawgit.com
 
-### Homework
-
-[Link to Homework](homework/)
-
-Remind students when homework is due and how it will be collected.
 
 ## After Class
 
 * Review the Exit Tickets.
 * Prepare for next lesson / hand off to next volunteer in rotation.
+
